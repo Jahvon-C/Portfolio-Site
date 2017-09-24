@@ -42,6 +42,16 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.skill-container:after, skill-container:before{
+		content="";
+		display:table;
+		clear:both;
+	}
+
+	.skill-container{
+		padding: 0.0em 16px;
+	}
+
 	.red{
 		color: #ffffff;
 		background-color: #ff0000;
