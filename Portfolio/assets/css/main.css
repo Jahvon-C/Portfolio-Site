@@ -42,6 +42,25 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.skill-container:after, skill-container:before{
+		content="";
+		display:table;
+		clear:both;
+	}
+
+	.skill-container{
+		padding: 0.0em 16px;
+	}
+
+	.red{
+		color: #ffffff;
+		background-color: #ff0000;
+	}
+
+	.gray{
+		background-color: #d9d9d9;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -2107,6 +2126,17 @@
 					padding-left: 0;
 					margin-left: 0;
 				}
+
+/* Skills */
+
+	#skills h4 {
+		margin: 0 0 1em 0;
+		text-align: center;
+	}
+
+	#skills h3{
+		text-align: left;
+	}
 
 /* Main */
 
